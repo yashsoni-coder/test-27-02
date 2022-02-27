@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            survey form
+        </title>
+       
+    </head>
+   
+      <body>
+          <img src="">
+         
+          <ul>
+            
+              <li><a href = "#">Hobbies</a></li>
+              <li><a href = "#">Intrest</a></li>
+              <li><a href = "#">Education</a></li>
+          </ul>
+          <form>
+
+
+             Email ID  : <input type="text" placeholder="Enter your id" ><br>
+             User Name : <input type ="text" placeholder="User Name"><br>
+             Password  : <input type="password" placeholder="********"><br>
+             Mobile NO : <input type="number">  <br>
+             Gender      <input type="radio" name="gender" value="Male"> Male
+                         <input type="radio" name="gender" value="Female"> Female<br>  
+            Branch        
+                       <input type="checkbox" name="branch" value="CS">CS
+                       <input type="checkbox" name="branch" value="IT">It
+                       <input type="checkbox" name="branch" value="Me">Me
+                       <input type="checkbox" name="branch" value="Ce">Ce<br>
+            caste      <select name="caste">
+                         <option>GEN</option>
+                         <option>OBC</option>
+                         <option>ST</option>
+                         <option>SC</option>
+
+                         </select> <br>         
+
+                           <button type="submit">Submit</button>
+
+
+
+
+
+
+
+          </form>
+      </body>
+</html>
